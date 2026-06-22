@@ -231,10 +231,19 @@
       flex: 0 0 auto; display: flex; flex-direction: column;
       align-items: center; gap: 1.5rem;
     }
-    .avatar-ring {
+    /* .avatar-ring {
       width: 220px; height: 220px; border-radius: 50%;
       background: linear-gradient(135deg, var(--accent), var(--accent2), var(--accent3));
       padding: 3px; flex-shrink: 0;
+    } */
+    .avatar-ring {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 2px solid var(--accent);
+      padding: 3px;
+      flex-shrink: 0;
     }
     .avatar-inner {
       width: 100%; height: 100%; border-radius: 50%;
@@ -569,7 +578,7 @@
 <!-- ═══════════════════ HERO ═══════════════════ -->
 <section id="hero">
   <div class="hero-content">
-    <div class="hero-tag">Open to opportunities</div>
+    <!-- <div class="hero-tag">Open to opportunities</div> -->
     <h1 class="hero-name">
       Ronak<br><span class="accent">Sharma</span>
     </h1>
@@ -599,8 +608,8 @@
     </div>
     <div class="stat-grid">
       <div class="stat-card"><div class="num">350+</div><div class="lbl">LeetCode</div></div>
-      <div class="stat-card"><div class="num">6</div><div class="lbl">Projects</div></div>
-      <div class="stat-card"><div class="num">5+</div><div class="lbl">Clubs</div></div>
+      <div class="stat-card"><div class="num">6+</div><div class="lbl">Projects</div></div>
+      <div class="stat-card"><div class="num">5+</div><div class="lbl">Leadership</div></div>
       <div class="stat-card"><div class="num">3rd</div><div class="lbl">Year MNIT</div></div>
     </div>
   </div>
@@ -887,7 +896,10 @@
   <div class="edu-timeline">
 
     <div class="edu-card reveal">
-      <div class="edu-badge">🏫</div>
+      <!-- <div class="edu-badge">🏫</div> -->
+      <div class="edu-badge">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
       <div class="edu-info">
         <div class="edu-inst">MNIT Jaipur</div>
         <div class="edu-degree">B.Tech — Chemical Engineering</div>
@@ -913,7 +925,10 @@
     </div>
 
     <div class="edu-card reveal reveal-delay-1">
-      <div class="edu-badge">🎓</div>
+      <!-- <div class="edu-badge">🎓</div> -->
+      <div class="edu-badge">
+        <i class="fa-solid fa-building-columns"></i>
+      </div>
       <div class="edu-info">
         <div class="edu-inst">Cotton University</div>
         <div class="edu-degree">Higher Secondary — Science (PCM)</div>
@@ -955,7 +970,7 @@
         <div class="cl-icon" style="background:rgba(10,102,194,0.15);color:#0A66C2"><i class="fa-brands fa-linkedin-in"></i></div>
         <div>
           <div class="cl-label">LinkedIn</div>
-          <div class="cl-sub">ronak-sharma-94b5a9330</div>
+          <div class="cl-sub">ronak-sharma<!--94b5a9330--></div>
         </div>
       </a>
       <a class="contact-link" href="https://github.com/Ronakkkkkkk" target="_blank">
@@ -969,7 +984,7 @@
         <div class="cl-icon" style="background:rgba(255,161,22,0.12);color:#FFA116"><i class="fa-solid fa-code"></i></div>
         <div>
           <div class="cl-label">LeetCode</div>
-          <div class="cl-sub">RuntimeOK · 350+ problems</div>
+          <div class="cl-sub">RuntimeOK <!--· 350+ problems--></div>
         </div>
       </a>
     </div>
